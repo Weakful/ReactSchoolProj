@@ -1,0 +1,83 @@
+td {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: x-large;
+}
+
+.table {
+    width: auto !important;
+}
+
+.available-cell {
+    background: green;
+    cursor: pointer;
+}
+
+.red-bg {
+    background: red;
+}
+
+td:hover {
+    background-color: #12d2fe;
+}
+
+tr:hover {
+    background-color: initial;
+}
+
+.btn {
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.selected {
+    background-color: blue !important;
+}
+
+.pieces {
+    cursor: pointer;
+}
+
+.red-player {
+    background-color: #ff979f;
+}
+
+.blue-player {
+    background-color: #aeb1ff;
+}
+
+.possibility {
+    background-color: #4e4e56;
+}
+
+.game-over {
+    position: absolute;
+    z-index: 99;
+    width: 100vw;
+    height: 100vw;
+    margin-left: -3rem;
+    margin-top: -1rem;
+    font-size: 100px;
+    background: yellow;
+    opacity: 0.5;
+    text-align: center;
+}
+
+Link {
+    color: green;
+}
+
+#next-page {
+    display: none !important;
+}
+
+#back-to-main {
+    z-index: 150 !important;
+    position: absolute !important;
+}
+
+.back-to-main {
+    z-index: 150 !important;
+    position: absolute !important;
+}
